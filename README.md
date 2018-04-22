@@ -2,16 +2,18 @@
 
 
 Assignment 2_1
-1.	How to Import SAS XPORT files into R with the foreign package?
-read.xport (foreign)
+1.How to Import SAS XPORT files into R with the foreign package?
+
+         read.xport (foreign)
             read.xport(file)
 
-2.	How to Import SAS Files into R with the Haven package?
-install.packages("haven")
-library(haven)
-dat=read_sas("path to file", "path to formats catalog")
+2.How to Import SAS Files into R with the Haven package?
+
+       install.packages("haven")
+        library(haven)
+        dat=read_sas("path to file", "path to formats catalog")
 	Eg: path <-system.file("examples","iris.sas7bdat", package ="haven")
-	read_sas(path)
+	 read_sas(path)
 
 3.	How to read Weka Attribute-Relation File Format (ARFF) files in R?
 Library(foreign)
